@@ -1,0 +1,189 @@
+body {
+    background: #f5f3e6;
+}
+
+.section {
+    padding: 1rem 0 2rem 0;
+}
+
+.section-head {
+    font-family: times;
+    margin: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+a,
+a:hover {
+    color: #FFC300;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/********** NAVIGATION BAR **********/
+.navbar-brand img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: times;
+
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: times;
+    color: white;
+}
+
+.navbar-toggler {
+    height: 2.5rem;
+}
+
+.navbar-toggler img {
+    height: 1.5rem;
+    /* Change image color */
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(98%) contrast(106%);
+}
+
+.navbar-toggler img:hover {
+    /* Change image color on hover*/
+    filter: invert(78%) sepia(0%) saturate(0%) hue-rotate(252deg) brightness(102%) contrast(90%);
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #FFC300;
+}
+
+/********** HOME **********/
+#home {
+    height: 50rem
+}
+
+.bg {
+    background-image: url(img/veena_bg.jpg);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.shadow {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+#landing-container {
+    height: 100%;
+}
+
+#landing-row {
+    height: 100%;
+}
+
+#landing-head {
+    color: #FFC300;
+    font-size: 3em;
+    font-family: times;
+}
+
+#landing-subhead {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: times;
+}
+
+.alert {
+    margin: 2rem;
+    background: #f5f3e6;
+    color: #a32f2f;
+}
+
+/********** LESSONS **********/
+.instrument-info {
+    margin: 15px;
+    border: 2px solid #FFC300;
+}
+
+.instrument-text {
+    text-align: center;
+}
+
+#lesson-text {
+    margin: 0 10px;
+    text-align: left;
+}
+
+.icon {
+    height: 70px;
+    margin: 20px 0;
+    filter: invert(13%) sepia(73%) saturate(3329%) hue-rotate(358deg) brightness(104%) contrast(78%);
+}
+
+#other {
+    margin: 10vh 0;
+}
+
+/********** ABOUT **********/
+#about {
+    background: #e6e1c5;
+}
+
+.teacher-img {
+    padding-bottom: 1rem;
+}
+
+/********** EVENTS **********/
+.carousel {
+    margin-top: 0.5rem;
+}
+
+.column {
+    float: left;
+    width: 12.5%;
+}
+
+.thumbnail {
+    width: 95%;
+}
+
+#event-row {
+    margin-bottom: 1rem;
+}
+
+/********** CONTACT **********/
+#contact {
+    background: #802a2a;
+    color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+hr {
+    margin: 1rem 0;
+    background-color: white;
+}
+
+#footer {
+    text-align: left;
+}
+
+.credits {
+    font-size: 10px;
+}
